@@ -39,6 +39,7 @@ const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 
 next.addEventListener('click', function(){
+    
     //verifico l'elemento attivo (itemActive)
     items[itemActive].classList.remove('active');
     circles[itemActive].classList.remove('active');
