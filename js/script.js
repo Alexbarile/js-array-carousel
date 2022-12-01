@@ -38,6 +38,8 @@ circles[itemActive].classList.add('active');
 const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 
+// freccia verso dx
+
 next.addEventListener('click', function(){
     if(itemActive < imagesArray.length -1){
         //verifico l'elemento attivo (itemActive)
@@ -63,6 +65,8 @@ next.addEventListener('click', function(){
         circles[itemActive].classList.add('active');
     }
 });
+
+// freccia verso sx
 
 prev.addEventListener('click', function(){
     if(itemActive > 0){
