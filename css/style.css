@@ -17,6 +17,31 @@
     position:relative;
 }
 
+.thumbnails{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    height: 100%;
+    transform: translate(50%, -110%);
+    background-color: black;
+}
+
+.thumb{
+    width: 250px;
+    height: calc(100% / 5);
+    opacity: 0.5;
+}
+
+.thumb.active{
+    opacity: 1;
+}
+
+.thumb img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
 .item{
     display: none;
 }
