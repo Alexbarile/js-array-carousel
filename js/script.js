@@ -77,7 +77,7 @@ next.addEventListener('click', function(){
         //verifico l'elemento attivo (itemActive)
         items[itemActive].classList.remove('active');
         circles[itemActive].classList.remove('active');
-        thumbnails[itemActive].classList.remove('active)');
+        thumbnails[itemActive].classList.remove('active');
         //incremento il suo valore di 1
         itemActive=0
         //aggiungere la class active al nuovo elemento dell'array items e la vado a rimuovere da quello precedente
